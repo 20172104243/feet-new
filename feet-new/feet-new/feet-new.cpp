@@ -11,6 +11,7 @@ protected:
 	int feet;
 	int inches;
 public:
+	CFeet(int tf,int ti);
 	CFeet();
 	~CFeet();
 	void display();
