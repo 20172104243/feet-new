@@ -15,8 +15,8 @@ public:
 	CFeet();
 	~CFeet();
 	void display();
-	void getfeet();
-	void getinches();
+    int  getfeet();
+	int  getinches();
 };
 CFeet::CFeet()
 {
@@ -38,11 +38,11 @@ void CFeet::display()
 {
 	cout << "Display" << feet << "Ó¢³ß" << inches << "Ó¢´ç" << endl;
 }
-void CFeet::getfeet()
+int  CFeet::getfeet()
 {
 	return feet;
 }
-void CFeet::getinches()
+int  CFeet::getinches()
 {
 	return inches;
 }
